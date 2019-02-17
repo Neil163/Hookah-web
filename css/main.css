@@ -1,0 +1,213 @@
+/*шрифт*/ 
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+/*    background-color: #f2f2f2;*/
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    
+    /*Для сглаживания шрифта на мобильных устройствах*/
+    -webkit-font-smoothing: antialiased;
+    /*для скролинга сайта*/
+    -webkit-overflow-scrolling: touch;
+    
+    margin-top: 70px;
+   
+}
+
+
+
+/*Навигационная панель*/
+.navbar a{
+    color: #f85c37;
+}
+
+a:hover, a: focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+.navbar a: visited {
+      background-color: #ff7878;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+
+.navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #ff7878;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+
+/*Фото и лого*/
+
+#headerwrap {
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    margin: auto;
+    margin-top: 100px;
+    
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 80%;
+    
+    background-size: 100%;
+    
+    /*ЧТОБЫ КАРТИНКА УМЕНЬШАЛАСЬ ПРИ РАЗНЫХ РАЗМЕРАХ ОКНА БРАУЗЕРА*/
+    -webkit-background-size: cover; 
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover; 
+    
+}
+
+#headerwrap h1 {
+    margin-top: 30px;
+    color: white;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+
+
+
+/*Затемнёный бэкграунд в блокеы контакты*/
+
+#contact {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    color: black;
+}
+
+#contact  ul li {
+    margin-top:40px;
+    font-size: 20px;
+    text-align: left;
+    list-style-type: none
+}
+
+#contact a {
+    color: #333;
+}
+
+
+
+/*Дижение картинки айфон*/
+.tilt {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+
+#headerwrap img {
+    margin: auto;
+}
+
+
+
+/*Стили строк и т.д.*/
+h1  {
+    font-family: 'Spirax', cursive;
+    font-weight: 250;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+	size: 100px;
+}
+h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: 2500;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/*<!--Адрес заведения-->*/
+.adress img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.adress {
+  
+    box-shadow: 0 0 30px grey;
+   
+}
+
+.adress img{
+    padding-bottom: 20px;
+}
+/*footer*/
+
+.footer {
+    background-color:#7f8c8d;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.footer h2 {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+
+/*СТРАНИЦА О НАС*/
+
+
+.infol p {
+    padding-top: 50px;
+}
+
+
+
+.infol {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.adress {
+    margin-bottom: 20px;
+}
